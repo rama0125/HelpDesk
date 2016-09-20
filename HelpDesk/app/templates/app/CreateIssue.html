@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8"/>
+    <title></title>
+    <style>
+        .jumbotron {
+            background-color: #32cd32;
+
+        }
+    </style>
+
+
+</head>
+
+<body class="jumbotron text-center">
+
+    <div class="container">
+ 
+  <ul class="nav nav-tabs" role="tablist">
+    
+    <li><a href="#">Create Isssue</a></li>
+    <li><a href="IssueComment.html">Comment on an Issue</a></li>
+    <li><a href="#">Show all issue</a></li>
+  </ul>
+</div>
+<form action="." method="POST" >
+    
+    <div class="container-fluid bg-grey">
+        <h1 class="text-center">Help Desk</h1>
+        
+  <p>Create an issue</p> 
+  
+        <div class="row">
+
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="Issue" name="Issue" placeholder="Issue" size="5" type="text" required>
+                    </div>
+
+                </div>
+                <textarea class="form-control" id="Description" name="Description" placeholder="Description" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+</form>
+     
+</body>
+</html>
